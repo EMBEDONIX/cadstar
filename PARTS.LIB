@@ -1,0 +1,32 @@
+# FORMAT 32
+
++N0 'root'
++N1 N0 'OpAmps' &
+'ADA4817-1-LFCSP'
++N2 N0 'Transistors' &
+'CSD13380F3'
+
+.ADA4817-1-LFCSP :3 ;1GHz Low Noise FastFet OpAmp
+LFCSP-8-13 (CP-8-13)
+*STM U
+*PNM 1=1 2=2 3=3 4=4 5=5 6=6 7=7 8=8
+*PLB 1="PD" 2="FB" 3="IN-" 4="IN+" 5="V-" 7="OUT" 8="V+"
+*MXP 8
+*DFN ADA4817-1-LFCSP
+*Designer Saeid Yazdani
+*Manufacturer Analog Devices
+ADA4817-1-LFCSP-8-13
+1.0!I 2.0 3.0!I 4.0!I 5.0!P 6.0 7.0!Y 8.0!P
+
+.CSD13380F3 :3 ;12V N-Channel FemtoFET MOSFET
+FemtoFET
+*STM TR
+*PLB 1="G" 2="S" 3="D"
+*MXP 3
+*DFN CSD13380F3
+*Designer Saeid Yazdani
+*Manufacturer TEXAS Instruments
+FEMTO_FET
+1.0!I 2.0!Y 3.0!Y
+
+.END

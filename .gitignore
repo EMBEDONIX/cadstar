@@ -1,0 +1,10 @@
+# CADSTAR gitignore by Saeid Yazdani
+# www.EMBEDONIX.COM
+
+# Lets ignore files which start by '!'
+# These are kind of temporary files
+\!*
+
+# Ignore backup files
+*.bak
+*.BAK
